@@ -73,5 +73,5 @@ sideSelector = () => Math.floor(Math.random() * 50)
 
 // console.log(cube.volume()); 
 // console.log(cube.surfaceArea());
-console.log(cube.volumeChange(sideSelector(cube)));
-console.log(cube.surfaceAreaChange(sideSelector(cube)));
+console.log(cube.volumeChange(sideSelector()));
+console.log(cube.surfaceAreaChange(sideSelector()));
