@@ -30,10 +30,10 @@ class CubeMaker extends CuboidMaker {
       super(attrs)
       this.cubeList = attrs.cubeList
    }
-   volume = function (side) {      
+   volume = function () {      
       return Math.pow(this.length, 3);
    };
-   surfaceArea = function (side) {
+   surfaceArea = function () {
       return 6 * Math.pow(this.width, 2);
    };
    volumeChange = function (side) {
